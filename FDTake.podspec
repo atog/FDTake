@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.author       = { "William Entriken" => "github.com@phor.net" }
   s.source       = { :git => "https://github.com/fulldecent/FDTake.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/fulldecent'
-  s.platform     = :ios, '10.0'
+  s.platform     = :ios, '9.0'
   s.requires_arc = true
   s.swift_version = '5.0'
   s.source_files = 'Sources/FDTake/**/*.swift'
